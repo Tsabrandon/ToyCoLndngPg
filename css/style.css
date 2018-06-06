@@ -9,18 +9,21 @@ body{
   font-family: arial, Helvetica, sans-serif;
 }
 header{
-  margin-top: 20px;
+  margin-top: 30px;
 }
 #brand{
   float: left;
   color: white;
-  margin-left: 25px;
+  margin-left: 50px;
+  font-size: 22px;
 }
 li{
   float: left;
-  text-decoration: none;
   list-style: none;
   padding-right: 25px;
+}
+.lstli{
+  padding-right: 60px;
 }
 a{
   text-decoration: none;
@@ -46,9 +49,9 @@ span{
 }
 #front h1{
   clear: both;
-  padding-top: 120px;
+  padding-top: 17%;
   color: white;
-  font-size: 35px;
+  font-size: 60px;
   text-shadow: horizontal-offset vertical-offset blur color;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   text-transform: uppercase;
@@ -57,7 +60,7 @@ span{
 	background-color: #3498DB;
 	border-bottom: 5px solid #2980B9;
 	text-shadow: 0px -2px #2980B9;
-	padding: 5px 10px;
+	padding: 10px 20px;
 	border-radius: 10px;
 	font-family: 'Pacifico', cursive;
 	font-size: 15px;
@@ -65,12 +68,12 @@ span{
 	text-decoration: none;
 }
 .btnTop{
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .blue:hover{
-  opacity: .9;
+  opacity: 0.9;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width:480px){
+@media only screen and (min-width: 320px) and (max-width:480px){
   #brand{
     float: none;
     text-align: center;
@@ -86,20 +89,24 @@ span{
     display: inline-block;
     text-align: center;
     margin-top: 20px;
+      padding-right: 10px;
   }
   .lstli{
     padding-right: 0;
   }
   #front h1{
-    clear: both;
-    padding-top: 100px;
-    color: white;
+    padding-top: 50px;
     font-size: 35px;
-    text-shadow: horizontal-offset vertical-offset blur color;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-    text-transform: uppercase;
   }
   header{
-    margin-top: 40px;
+    margin-top: 25px;
+  }
+  .btnTop{
+    margin-top: 20px;
+  }
+  .blue {
+  	padding: 5px 10px;
+  	border-radius: 10px;
+  	font-size: 15px;
   }
 }
